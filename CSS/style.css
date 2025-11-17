@@ -256,12 +256,13 @@ body {
     font-family: 'Courier New', monospace;
     font-size: 0.95rem;
     line-height: 1.8;
+    color: #e4e4e7;
 }
 
-.code-keyword { color: #c678dd; }
-.code-class { color: #e5c07b; }
-.code-string { color: #98c379; }
-.code-boolean { color: #61afef; }
+.code-keyword { color: #c678dd; font-weight: 600; }
+.code-class { color: #e5c07b; font-weight: 600; }
+.code-string { color: #98c379; font-weight: 500; }
+.code-boolean { color: #61afef; font-weight: 500; }
 
 /* Scroll Indicator */
 .scroll-indicator {

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional | Tecnólogo SENA</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-highlight">DEV</span>Portfolio
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO PRINCIPAL -->
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="badge">Tecnólogo SENA en Formación</span>
+                <h1 class="hero-title">Desarrollador Backend</h1>
+                <p class="hero-subtitle">Especializado en Java, Spring Boot y Bases de Datos</p>
+                <p class="hero-description">Construyendo APIs robustas y sistemas empresariales escalables con las mejores prácticas del desarrollo backend.</p>
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="#contacto" class="btn btn-secondary">Contáctame</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-box">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="code-content">
+                        <code>
+                            <span class="code-keyword">public class</span> <span class="code-class">Developer</span> {<br>
+                            &nbsp;&nbsp;<span class="code-keyword">String</span> nombre = <span class="code-string">"Tu Nombre"</span>;<br>
+                            &nbsp;&nbsp;<span class="code-keyword">String</span> nivel = <span class="code-string">"Tecnólogo"</span>;<br>
+                            &nbsp;&nbsp;<span class="code-keyword">boolean</span> apasionado = <span class="code-boolean">true</span>;<br>
+                            }
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </header>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Conóceme</span>
+                <h2 class="section-title">Sobre mí</h2>
+            </div>
+            <div class="sobre-content">
+                <div class="sobre-imagen">
+                    <div class="imagen-wrapper">
+                        <img src="/assets/fotoooo.jpeg" alt="Foto de perfil" class="foto-perfil">
+                        <div class="imagen-border"></div>
+                    </div>
+                </div>
+                <div class="sobre-text">
+                    <p class="intro-text">
+                        Soy un aprendiz SENA de nivel tecnólogo apasionado por el desarrollo backend y la arquitectura de software.
+                    </p>
+                    <p>
+                        Mi especialidad es el desarrollo backend con <strong>Java</strong>, trabajando con <strong>Spring Boot</strong>, 
+                        <strong>APIs REST</strong> y <strong>bases de datos relacionales</strong>. Mi formación en el SENA me ha permitido 
+                        adquirir conocimientos sólidos en programación orientada a objetos, diseño de bases de datos y arquitectura de sistemas.
+                    </p>
+                    <p>
+                        Me enfoco en escribir código limpio, eficiente y mantenible, aplicando principios SOLID y patrones de diseño. 
+                        Actualmente estoy desarrollando mi proyecto de grado que integra todo lo aprendido durante mi formación como tecnólogo.
+                    </p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>95%</h3>
+                            <p>Formación Completada</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 data-no-animate="true">Java</h3>
+                            <p>Lenguaje Principal</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 data-no-animate="true">2024</h3>
+                            <p>Inicio en Backend</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES TÉCNICAS -->
+    <section id="habilidades" class="habilidades">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Competencias</span>
+                <h2 class="section-title">Habilidades Técnicas</h2>
+            </div>
+            <div class="habilidades-grid">
+                <div class="habilidad-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Java Backend</h3>
+                    <p>Spring Boot, JPA, Hibernate, API REST</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="habilidad-card">
+                    <div class="skill-icon">🔌</div>
+                    <h3>APIs REST</h3>
+                    <p>Spring Boot, RESTful Services, JSON, Postman</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="habilidad-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Bases de Datos</h3>
+                    <p>MySQL, PostgreSQL, SQL Server</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="habilidad-card">
+                    <div class="skill-icon">🔧</div>
+                    <h3>Herramientas</h3>
+                    <p>Git, Maven, IntelliJ IDEA, VS Code</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="habilidad-card">
+                    <div class="skill-icon">🏗️</div>
+                    <h3>Arquitectura</h3>
+                    <p>MVC, Capas, Patrón DAO, DTO, POO</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="habilidad-card">
+                    <div class="skill-icon">💡</div>
+                    <h3>Metodologías</h3>
+                    <p>Scrum, Análisis de Requerimientos, UML</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="proyectos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Mi Trabajo</span>
+                <h2 class="section-title">Proyectos Destacados</h2>
+            </div>
+            <div class="proyectos-grid">
+                <div class="proyecto-card">
+                    <div class="proyecto-image">
+                        <div class="proyecto-overlay">
+                            <a href="#galeria-proyecto" class="proyecto-link">Ver capturas del proyecto →</a>
+                        </div>
+                    </div>
+                    <div class="proyecto-content">
+                        <h3>Proyecto de Grado SENA</h3>
+                        <p>Sistema backend desarrollado con Java y Spring Boot. Implementa arquitectura en capas, API REST, gestión de base de datos y lógica de negocio robusta.</p>
+                        <div class="proyecto-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">API REST</span>
+                        </div>
+                        <div class="proyecto-actions">
+                            <a href="#galeria-proyecto" class="proyecto-btn">
+                                <span class="btn-icon">🖼️</span> Ver Interfaz
+                            </a>
+                            <button class="proyecto-btn proyecto-btn-secondary" disabled style="opacity: 0.6; cursor: not-allowed;">
+                                <span class="btn-icon">📂</span> Código (Próximamente)
+                            </button>
+                        </div>
+                        <p style="margin-top: 20px; font-size: 0.9rem; color: #f59e0b; font-weight: 600;">⏳ Repositorio disponible al finalizar el proyecto</p>
+                    </div>
+                </div>
+                <div class="proyecto-card">
+                    <div class="proyecto-image proyecto-bg-3">
+                        <div class="proyecto-overlay">
+                            <span class="proyecto-link" style="cursor: default;">En planeación</span>
+                        </div>
+                    </div>
+                    <div class="proyecto-content">
+                        <h3>Futuros Proyectos</h3>
+                        <p>Planeo expandir mis conocimientos con microservicios, Docker, y tecnologías cloud. El aprendizaje continúa después del SENA.</p>
+                        <div class="proyecto-tags">
+                            <span class="tag">Microservicios</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Cloud</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA DEL PROYECTO -->
+    <section id="galeria-proyecto" class="galeria-proyecto">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Demo Visual</span>
+                <h2 class="section-title">Capturas del Proyecto</h2>
+                <p class="section-description">Interfaz, arquitectura y funcionalidades principales</p>
+            </div>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <a href="/assets/modoClaro1.jpeg" target="_blank" class="galeria-link">
+                        <img src="/assets/modoClaro1.jpeg" alt="Módulo 1 - Modo claro" class="galeria-img">
+                        <div class="galeria-zoom">🔍</div>
+                    </a>
+                    <div class="galeria-caption">
+                        <h4>Módulo 1 - Modo Claro</h4>
+                        <p>Interfaz principal en tema light</p>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <a href="/assets/modoOscuro1.jpeg" target="_blank" class="galeria-link">
+                        <img src="/assets/modoOscuro1.jpeg" alt="Módulo 1 - Modo oscuro" class="galeria-img">
+                        <div class="galeria-zoom">🔍</div>
+                    </a>
+                    <div class="galeria-caption">
+                        <h4>Módulo 1 - Modo Oscuro</h4>
+                        <p>Interfaz principal en tema dark</p>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <a href="/assets/modoClaro2.jpeg" target="_blank" class="galeria-link">
+                        <img src="/assets/modoClaro2.jpeg" alt="Módulo 2 - Modo claro" class="galeria-img">
+                        <div class="galeria-zoom">🔍</div>
+                    </a>
+                    <div class="galeria-caption">
+                        <h4>Módulo 2 - Modo Claro</h4>
+                        <p>Segunda funcionalidad en tema light</p>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <a href="/assets/modooOscuro2.jpeg" target="_blank" class="galeria-link">
+                        <img src="/assets/modooOscuro2.jpeg" alt="Módulo 2 - Modo oscuro" class="galeria-img">
+                        <div class="galeria-zoom">🔍</div>
+                    </a>
+                    <div class="galeria-caption">
+                        <h4>Módulo 2 - Modo Oscuro</h4>
+                        <p>Segunda funcionalidad en tema dark</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Hablemos</span>
+                <h2 class="section-title">Contáctame</h2>
+                <p class="section-description">¿Tienes un proyecto en mente o quieres colaborar? Escríbeme</p>
+            </div>
+            <div class="contacto-content">
+                <div class="contacto-info">
+                    <div class="info-card">
+                        <div class="info-icon">📧</div>
+                        <h3>Email</h3>
+                        <p>cesardiazq10@gmail.com</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📱</div>
+                        <h3>Teléfono</h3>
+                        <p>+57 310 355 0253</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <h3>Ubicación</h3>
+                        <p>Colombia</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">💼</div>
+                        <h3>LinkedIn</h3>
+                        <p><a href="https://www.linkedin.com/in/césar-díaz-172b83314/" target="_blank" style="color: inherit; text-decoration: none;">César Díaz</a></p>
+                    </div>
+                </div>
+                <form class="contacto-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="user_name" placeholder="Tu nombre completo" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="user_email" placeholder="Tu correo electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Asunto">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Tu mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3><span class="logo-highlight">DEV</span>Portfolio</h3>
+                    <p>Tecnólogo SENA • Desarrollador Backend Java</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-mi">Sobre mí</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes Sociales</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">GitHub</a>
+                        <a href="https://www.linkedin.com/in/césar-díaz-172b83314/" target="_blank" class="social-icon">LinkedIn</a>
+                        <a href="mailto:cesardiazq10@gmail.com" class="social-icon">Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Todos los derechos reservados | Proyecto SENA</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/JAVASCRIPT/main.js"></script>
+</body>
+</html>
